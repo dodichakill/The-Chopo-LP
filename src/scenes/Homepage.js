@@ -6,6 +6,7 @@ import Lists from "elements/Lists";
 import Header from "parts/Header";
 import Clients from "parts/Clients";
 import Feature from "parts/Feature";
+import Footer from "parts/Footer";
 
 import HeroImage from "assets/images/hero-image.png";
 import FeatureTitle01 from "assets/images/feature-tile-icon-01.svg";
@@ -107,7 +108,9 @@ export default function Homepage() {
           <div className="hero-inner section-inner">
             <div className="hero-content">
               <Fade bottom delay={500}>
-                <h1 className="mt-0 mb-16">Landing template for startups</h1>
+                <h1 className="mt-0 mb-16">
+                  The Chopo : Landing template for startups
+                </h1>
               </Fade>
               <div className="container-xs">
                 <Fade bottom delay={1000}>
@@ -209,6 +212,7 @@ export default function Homepage() {
           </div>
         </div>
       </Section>
+      <Footer></Footer>
     </div>
   );
 }
