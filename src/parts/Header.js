@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import Btn from "elements/Button";
 export default function Header(props) {
   return (
-    <header className="site-header">
+    <header className="site-header mb-32">
       <div className="container">
         <div className="site-header-inner">
           <div className="brand">
